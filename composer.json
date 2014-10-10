@@ -1,0 +1,28 @@
+{
+    "name": "plum/mapper",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/gen"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/reflect"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/inject"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "plum/inject": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": { "Plum\\Mapper\\": "" }
+    }
+}
